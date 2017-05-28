@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12120" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="oxygen.light.ttf">
+            <string>Oxygen-Light</string>
+        </array>
+        <array key="oxygen.regular.ttf">
+            <string>Oxygen-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="OnBoardingVC" customModule="Cycle" customModuleProvider="target">
+            <connections>
+                <outlet property="pageControl" destination="ePD-G9-egj" id="3M9-vo-Rez"/>
+                <outlet property="scrollView" destination="0KO-Kf-1GE" id="X5g-or-0H5"/>
+                <outlet property="view" destination="JvK-ct-KFZ" id="Xsc-HZ-Xv3"/>
+                <outlet property="view1" destination="eTw-Hi-1Tx" id="66I-wK-oh8"/>
+                <outlet property="view2" destination="GNF-ye-8kg" id="6og-oM-JYX"/>
+                <outlet property="view3" destination="d8Q-hu-U5e" id="iWK-Lv-mUD"/>
+                <outlet property="view4" destination="CRF-wC-FYT" id="opQ-HC-9gS"/>
+                <outlet property="view5" destination="By3-db-93h" id="ypk-uo-dH8"/>
+            </connections>
+        </placeholder>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="JvK-ct-KFZ">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" directionalLockEnabled="YES" bounces="NO" alwaysBounceHorizontal="YES" pagingEnabled="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0KO-Kf-1GE">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                </scrollView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qvr-bd-fZb">
+                    <rect key="frame" x="215" y="603" width="140" height="31"/>
+                    <fontDescription key="fontDescription" name="Oxygen-Regular" family="Oxygen" pointSize="15"/>
+                    <color key="tintColor" red="0.93725490199999995" green="0.47058823529999999" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                    <state key="normal" title="ENTRAR SEM LOGIN">
+                        <color key="titleColor" red="0.30980392156862746" green="0.6588235294117647" blue="0.62352941176470589" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="actionEntrarSemLogin:" destination="-1" eventType="touchUpInside" id="Cvg-rC-Ypn"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="V9V-bR-QQO">
+                    <rect key="frame" x="214" y="60" width="141" height="31"/>
+                    <fontDescription key="fontDescription" name="Oxygen-Regular" family="Oxygen" pointSize="15"/>
+                    <color key="tintColor" red="0.93725490199999995" green="0.47058823529999999" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                    <state key="normal" title="ACESSE SUA CONTA">
+                        <color key="titleColor" red="0.30908361080000002" green="0.65801155570000003" blue="0.62265866989999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="actionAcesseConta:" destination="-1" eventType="touchUpInside" id="oYF-eb-Yny"/>
+                    </connections>
+                </button>
+                <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="3" translatesAutoresizingMaskIntoConstraints="NO" id="ePD-G9-egj">
+                    <rect key="frame" x="20" y="600" width="39" height="37"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <color key="pageIndicatorTintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <color key="currentPageIndicatorTintColor" red="0.30908361080000002" green="0.65801155570000003" blue="0.62265866989999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                </pageControl>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="qvr-bd-fZb" secondAttribute="trailing" constant="20" id="56v-ZC-gov"/>
+                <constraint firstAttribute="bottom" secondItem="0KO-Kf-1GE" secondAttribute="bottom" id="AiY-y1-tzh"/>
+                <constraint firstItem="qvr-bd-fZb" firstAttribute="centerY" secondItem="ePD-G9-egj" secondAttribute="centerY" id="DLm-8k-IBB"/>
+                <constraint firstItem="0KO-Kf-1GE" firstAttribute="top" secondItem="JvK-ct-KFZ" secondAttribute="top" id="H0g-3O-bvJ"/>
+                <constraint firstItem="0KO-Kf-1GE" firstAttribute="leading" secondItem="JvK-ct-KFZ" secondAttribute="leading" id="eW0-Ii-8Lh"/>
+                <constraint firstItem="ePD-G9-egj" firstAttribute="leading" secondItem="JvK-ct-KFZ" secondAttribute="leading" constant="20" id="eWh-jg-nXf"/>
+                <constraint firstAttribute="bottom" secondItem="ePD-G9-egj" secondAttribute="bottom" constant="30" id="oEO-6u-Xtb"/>
+                <constraint firstAttribute="trailing" secondItem="0KO-Kf-1GE" secondAttribute="trailing" id="t1U-hO-YCv"/>
+                <constraint firstAttribute="trailing" secondItem="V9V-bR-QQO" secondAttribute="trailing" constant="20" id="y39-5q-neO"/>
+                <constraint firstItem="V9V-bR-QQO" firstAttribute="top" secondItem="JvK-ct-KFZ" secondAttribute="top" constant="60" id="zlu-Ru-I2h"/>
+            </constraints>
+            <point key="canvasLocation" x="-40.5" y="14.5"/>
+        </view>
+        <view contentMode="scaleToFill" id="eTw-Hi-1Tx" userLabel="OnBoarding1">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ZjJ-0l-2bO">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                    <subviews>
+                        <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" fixedFrame="YES" image="celulares" translatesAutoresizingMaskIntoConstraints="NO" id="Cic-02-xpt">
+                            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            <autoresizingMask key="autoresizingMask"/>
+                        </imageView>
+                        <visualEffectView opaque="NO" alpha="0.80000001192092896" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="N4n-3p-brs">
+                            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" alpha="0.40000000596046448" contentMode="center" ambiguous="YES" id="Ucw-ng-EUr">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </view>
+                            <blurEffect style="dark"/>
+                        </visualEffectView>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sabe aquele dispositivo eletrônico que não funciona mais e está jogado aí na sua casa?" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="urE-xh-nUy">
+                            <rect key="frame" x="20" y="435.5" width="335" height="131.5"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            <fontDescription key="fontDescription" name="Oxygen-Light" family="Oxygen" pointSize="26"/>
+                            <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="bottom" secondItem="urE-xh-nUy" secondAttribute="bottom" constant="100" id="3gJ-lM-VxL"/>
+                        <constraint firstAttribute="trailing" secondItem="urE-xh-nUy" secondAttribute="trailing" constant="20" id="LKf-rf-9SZ"/>
+                        <constraint firstItem="urE-xh-nUy" firstAttribute="leading" secondItem="ZjJ-0l-2bO" secondAttribute="leading" constant="20" id="an1-HS-RJM"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="0.30908361080000002" green="0.65801155570000003" blue="0.62265866989999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="ZjJ-0l-2bO" secondAttribute="trailing" id="28o-nR-E81"/>
+                <constraint firstItem="ZjJ-0l-2bO" firstAttribute="leading" secondItem="eTw-Hi-1Tx" secondAttribute="leading" id="hUa-fD-wvD"/>
+                <constraint firstAttribute="bottom" secondItem="ZjJ-0l-2bO" secondAttribute="bottom" id="pWW-6R-Dzg"/>
+                <constraint firstItem="ZjJ-0l-2bO" firstAttribute="top" secondItem="eTw-Hi-1Tx" secondAttribute="top" id="vZP-5u-iJh"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="416.5" y="14.5"/>
+        </view>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="GNF-ye-8kg" userLabel="OnBoarding2">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" image="antigos" translatesAutoresizingMaskIntoConstraints="NO" id="q7T-Yq-I77">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                </imageView>
+                <visualEffectView opaque="NO" alpha="0.80000001192092896" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="awn-ph-Ref">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                    <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="wsY-kL-Fq4">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                    </view>
+                    <blurEffect style="dark"/>
+                </visualEffectView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Está afim de se livrar dele e ainda ganhar um dinheiro, voucher ou até mesmo pontos?" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mBi-t4-Oi0">
+                    <rect key="frame" x="20" y="435" width="335" height="131.5"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <fontDescription key="fontDescription" name="Oxygen-Light" family="Oxygen" pointSize="26"/>
+                    <color key="textColor" red="0.96862745100000003" green="0.96862745100000003" blue="0.96862745100000003" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="mBi-t4-Oi0" secondAttribute="bottom" constant="100" id="1WG-mJ-Xoq"/>
+                <constraint firstAttribute="bottom" secondItem="awn-ph-Ref" secondAttribute="bottom" id="6s9-BP-53Z"/>
+                <constraint firstAttribute="trailing" secondItem="q7T-Yq-I77" secondAttribute="trailing" id="7fL-b0-mTd"/>
+                <constraint firstItem="awn-ph-Ref" firstAttribute="top" secondItem="GNF-ye-8kg" secondAttribute="top" id="DYF-7n-CJz"/>
+                <constraint firstAttribute="trailing" secondItem="awn-ph-Ref" secondAttribute="trailing" id="MAP-yO-phF"/>
+                <constraint firstItem="mBi-t4-Oi0" firstAttribute="leading" secondItem="GNF-ye-8kg" secondAttribute="leading" constant="20" id="Wmh-7V-diQ"/>
+                <constraint firstAttribute="trailing" secondItem="mBi-t4-Oi0" secondAttribute="trailing" constant="20" id="X4T-q6-Qop"/>
+                <constraint firstAttribute="bottom" secondItem="q7T-Yq-I77" secondAttribute="bottom" id="Ybt-cs-ZWv"/>
+                <constraint firstItem="q7T-Yq-I77" firstAttribute="leading" secondItem="GNF-ye-8kg" secondAttribute="leading" id="gga-qe-Ch0"/>
+                <constraint firstItem="q7T-Yq-I77" firstAttribute="top" secondItem="GNF-ye-8kg" secondAttribute="top" id="qSS-tI-zQh"/>
+                <constraint firstItem="awn-ph-Ref" firstAttribute="leading" secondItem="GNF-ye-8kg" secondAttribute="leading" id="uRy-4A-gEl"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="843.5" y="14.5"/>
+        </view>
+        <view contentMode="scaleToFill" id="d8Q-hu-U5e" userLabel="OnBoarding3">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" image="notebook_bg" translatesAutoresizingMaskIntoConstraints="NO" id="pI9-Wy-cOZ">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                </imageView>
+                <visualEffectView opaque="NO" alpha="0.80000001192092896" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qcU-lc-6Tt">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                    <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="sg3-Bb-Q7l">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                    </view>
+                    <blurEffect style="dark"/>
+                </visualEffectView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Com o Cycle você pode dar um novo ciclo de vida para seu eletrônico quebrado..." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FIA-St-bpR">
+                    <rect key="frame" x="20" y="468" width="335" height="98.5"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <fontDescription key="fontDescription" name="Oxygen-Light" family="Oxygen" pointSize="26"/>
+                    <color key="textColor" red="0.96862745100000003" green="0.96862745100000003" blue="0.96862745100000003" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="pI9-Wy-cOZ" secondAttribute="bottom" id="33s-RA-AiQ"/>
+                <constraint firstItem="pI9-Wy-cOZ" firstAttribute="top" secondItem="d8Q-hu-U5e" secondAttribute="top" id="Agj-AQ-uQY"/>
+                <constraint firstAttribute="bottom" secondItem="FIA-St-bpR" secondAttribute="bottom" constant="100" id="B4J-Ub-2E4"/>
+                <constraint firstItem="pI9-Wy-cOZ" firstAttribute="leading" secondItem="d8Q-hu-U5e" secondAttribute="leading" id="e3Z-hF-yyn"/>
+                <constraint firstItem="qcU-lc-6Tt" firstAttribute="top" secondItem="d8Q-hu-U5e" secondAttribute="top" id="iRa-NK-1IF"/>
+                <constraint firstItem="qcU-lc-6Tt" firstAttribute="leading" secondItem="d8Q-hu-U5e" secondAttribute="leading" id="l0n-3S-a0n"/>
+                <constraint firstItem="FIA-St-bpR" firstAttribute="leading" secondItem="d8Q-hu-U5e" secondAttribute="leading" constant="20" id="nMS-uc-wK6"/>
+                <constraint firstAttribute="trailing" secondItem="qcU-lc-6Tt" secondAttribute="trailing" id="qIM-GK-LoG"/>
+                <constraint firstAttribute="trailing" secondItem="FIA-St-bpR" secondAttribute="trailing" constant="20" id="rqM-zz-0LB"/>
+                <constraint firstAttribute="bottom" secondItem="qcU-lc-6Tt" secondAttribute="bottom" id="y8g-yg-R1N"/>
+                <constraint firstAttribute="trailing" secondItem="pI9-Wy-cOZ" secondAttribute="trailing" id="zWA-Cp-qoB"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="1293.5" y="14.5"/>
+        </view>
+        <view contentMode="scaleToFill" id="CRF-wC-FYT" userLabel="OnBoarding4">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <subviews>
+                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" image="repair_smartphone_bg" translatesAutoresizingMaskIntoConstraints="NO" id="Y4S-Go-hYl">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                </imageView>
+                <visualEffectView opaque="NO" alpha="0.80000001192092896" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9yn-Bg-JqP">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                    <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="naj-xh-dr1">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                    </view>
+                    <blurEffect style="dark"/>
+                </visualEffectView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Existem empresas e até mesmo pessoas a procura de seu produto, para reutilizar componentes que ainda possam funcionar." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Y6j-0y-F5X">
+                    <rect key="frame" x="20" y="402" width="335" height="164.5"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <fontDescription key="fontDescription" name="Oxygen-Light" family="Oxygen" pointSize="26"/>
+                    <color key="textColor" red="0.96862745100000003" green="0.96862745100000003" blue="0.96862745100000003" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstItem="Y4S-Go-hYl" firstAttribute="top" secondItem="CRF-wC-FYT" secondAttribute="top" id="4rR-ee-5kG"/>
+                <constraint firstAttribute="bottom" secondItem="9yn-Bg-JqP" secondAttribute="bottom" id="5ue-ya-6qP"/>
+                <constraint firstItem="9yn-Bg-JqP" firstAttribute="leading" secondItem="CRF-wC-FYT" secondAttribute="leading" id="Hi2-ih-Fm2"/>
+                <constraint firstAttribute="bottom" secondItem="Y4S-Go-hYl" secondAttribute="bottom" id="LZn-Wg-6HB"/>
+                <constraint firstItem="Y6j-0y-F5X" firstAttribute="leading" secondItem="CRF-wC-FYT" secondAttribute="leading" constant="20" id="NXc-X3-DSf"/>
+                <constraint firstAttribute="bottom" secondItem="Y6j-0y-F5X" secondAttribute="bottom" constant="100" id="VMp-cU-tbN"/>
+                <constraint firstAttribute="trailing" secondItem="Y4S-Go-hYl" secondAttribute="trailing" id="VyB-tf-IsR"/>
+                <constraint firstAttribute="trailing" secondItem="Y6j-0y-F5X" secondAttribute="trailing" constant="20" id="Yeq-kv-vc6"/>
+                <constraint firstItem="9yn-Bg-JqP" firstAttribute="top" secondItem="CRF-wC-FYT" secondAttribute="top" id="ZVz-5c-4Uf"/>
+                <constraint firstItem="Y4S-Go-hYl" firstAttribute="leading" secondItem="CRF-wC-FYT" secondAttribute="leading" id="aBh-KH-bxs"/>
+                <constraint firstAttribute="trailing" secondItem="9yn-Bg-JqP" secondAttribute="trailing" id="x4a-L7-CSC"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="1731.5" y="14.5"/>
+        </view>
+        <view contentMode="scaleToFill" id="By3-db-93h" userLabel="OnBoarding5">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" image="repair_note_bg" translatesAutoresizingMaskIntoConstraints="NO" id="gXn-Ym-59N">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                </imageView>
+                <visualEffectView opaque="NO" alpha="0.80000001192092896" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="G5o-Cn-22U">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                    <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="YyK-av-M8t">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                    </view>
+                    <blurEffect style="dark"/>
+                </visualEffectView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Aproveite agora para se livrar de vez de seus eletrônicos, descartá-los corretamente e ainda ganhar um bom dinheiro." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AbY-bS-2uH">
+                    <rect key="frame" x="20" y="402" width="335" height="164.5"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <fontDescription key="fontDescription" name="Oxygen-Light" family="Oxygen" pointSize="26"/>
+                    <color key="textColor" red="0.96862745100000003" green="0.96862745100000003" blue="0.96862745100000003" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="G5o-Cn-22U" secondAttribute="trailing" id="9uB-Vc-qXP"/>
+                <constraint firstItem="G5o-Cn-22U" firstAttribute="top" secondItem="By3-db-93h" secondAttribute="top" id="CgU-lX-VPY"/>
+                <constraint firstAttribute="bottom" secondItem="G5o-Cn-22U" secondAttribute="bottom" id="G6O-ao-y4y"/>
+                <constraint firstAttribute="bottom" secondItem="gXn-Ym-59N" secondAttribute="bottom" id="JNr-rg-1N4"/>
+                <constraint firstAttribute="trailing" secondItem="gXn-Ym-59N" secondAttribute="trailing" id="Oyg-5N-9bB"/>
+                <constraint firstItem="gXn-Ym-59N" firstAttribute="top" secondItem="By3-db-93h" secondAttribute="top" id="Rxe-JE-9IE"/>
+                <constraint firstAttribute="bottom" secondItem="AbY-bS-2uH" secondAttribute="bottom" constant="100" id="ghN-MK-K98"/>
+                <constraint firstItem="gXn-Ym-59N" firstAttribute="leading" secondItem="By3-db-93h" secondAttribute="leading" id="nH4-Xr-ZEF"/>
+                <constraint firstItem="G5o-Cn-22U" firstAttribute="leading" secondItem="By3-db-93h" secondAttribute="leading" id="xpb-yV-zpR"/>
+                <constraint firstItem="AbY-bS-2uH" firstAttribute="leading" secondItem="By3-db-93h" secondAttribute="leading" constant="20" id="xza-su-qxW"/>
+                <constraint firstAttribute="trailing" secondItem="AbY-bS-2uH" secondAttribute="trailing" constant="20" id="zH2-JP-1Ma"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="2151.5" y="14.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="antigos" width="246" height="512"/>
+        <image name="celulares" width="236" height="420"/>
+        <image name="notebook_bg" width="247" height="375"/>
+        <image name="repair_note_bg" width="217" height="334"/>
+        <image name="repair_smartphone_bg" width="507" height="883"/>
+    </resources>
+</document>

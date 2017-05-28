@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12120" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="oxygen.light.ttf">
+            <string>Oxygen-Light</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="HomeDescartarVC" customModule="Cycle" customModuleProvider="target">
+            <connections>
+                <outlet property="btnCelular" destination="abd-Dk-Lps" id="Or9-Gs-ecf"/>
+                <outlet property="btnTablet" destination="AsX-8z-oAa" id="if8-g1-0ZN"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="O que você deseja descartar?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LsV-pY-auL">
+                    <rect key="frame" x="59.5" y="80" width="256" height="25.5"/>
+                    <fontDescription key="fontDescription" name="Oxygen-Light" family="Oxygen" pointSize="20"/>
+                    <color key="textColor" red="0.30908361080000002" green="0.65801155570000003" blue="0.62265866989999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="100" translatesAutoresizingMaskIntoConstraints="NO" id="mHH-bs-gpk">
+                    <rect key="frame" x="152.5" y="192" width="70" height="283"/>
+                    <subviews>
+                        <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="eeD-Bd-ghz">
+                            <rect key="frame" x="0.0" y="0.0" width="70" height="93"/>
+                            <subviews>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="abd-Dk-Lps">
+                                    <rect key="frame" x="0.0" y="0.0" width="70" height="70"/>
+                                    <color key="backgroundColor" red="0.30908361080000002" green="0.65801155570000003" blue="0.62265866989999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="70" id="0du-tJ-fgU"/>
+                                        <constraint firstAttribute="width" constant="70" id="fdJ-rH-HaX"/>
+                                    </constraints>
+                                    <state key="normal" image="celular"/>
+                                    <connections>
+                                        <action selector="btnCelular:" destination="-1" eventType="touchUpInside" id="gg1-wm-RcC"/>
+                                    </connections>
+                                </button>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Celular" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oFV-3g-rfy">
+                                    <rect key="frame" x="0.0" y="75" width="70" height="18"/>
+                                    <fontDescription key="fontDescription" name="Oxygen-Light" family="Oxygen" pointSize="14"/>
+                                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                            </subviews>
+                        </stackView>
+                        <stackView opaque="NO" contentMode="scaleToFill" spacing="55" translatesAutoresizingMaskIntoConstraints="NO" id="FsK-5C-x3F">
+                            <rect key="frame" x="0.0" y="193" width="70" height="90"/>
+                            <subviews>
+                                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="wdx-7d-vja">
+                                    <rect key="frame" x="0.0" y="0.0" width="70" height="90"/>
+                                    <subviews>
+                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AsX-8z-oAa">
+                                            <rect key="frame" x="0.0" y="0.0" width="70" height="70"/>
+                                            <color key="backgroundColor" red="0.30908361080000002" green="0.65801155570000003" blue="0.62265866989999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" constant="70" id="4FJ-qR-UeM"/>
+                                                <constraint firstAttribute="height" constant="70" id="URF-tz-V54"/>
+                                            </constraints>
+                                            <state key="normal" image="tablet_generico"/>
+                                            <connections>
+                                                <action selector="btnTablet:" destination="-1" eventType="touchUpInside" id="o8n-FZ-mV9"/>
+                                            </connections>
+                                        </button>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tablet" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HyR-tG-7yK">
+                                            <rect key="frame" x="0.0" y="75" width="70" height="15"/>
+                                            <fontDescription key="fontDescription" name="Oxygen-Light" family="Oxygen" pointSize="14"/>
+                                            <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                </stackView>
+                            </subviews>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="90" id="VEw-KW-kvr"/>
+                            </constraints>
+                        </stackView>
+                    </subviews>
+                </stackView>
+            </subviews>
+            <color key="backgroundColor" red="0.21556475759999999" green="0.1883825958" blue="0.18785685299999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="mHH-bs-gpk" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="BZ6-Bh-UAJ"/>
+                <constraint firstItem="LsV-pY-auL" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="80" id="LmN-kZ-ZH8"/>
+                <constraint firstItem="mHH-bs-gpk" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="t9b-4N-Lgl"/>
+                <constraint firstItem="LsV-pY-auL" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="v9p-r8-k8L"/>
+            </constraints>
+            <point key="canvasLocation" x="35.5" y="53.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="celular" width="48" height="48"/>
+        <image name="tablet_generico" width="48" height="48"/>
+    </resources>
+</document>
