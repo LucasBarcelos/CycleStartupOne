@@ -49,17 +49,13 @@ class HomeDescartarVC: UIViewController {
     //MARK: - Actions
 
     @IBAction func btnCelular(_ sender: UIButton) {
-        let vc: OutrosModelosCelularesVC = OutrosModelosCelularesVC()
-        vc.modalPresentationStyle = .overCurrentContext
-        vc.modalTransitionStyle = .crossDissolve
-        self.present(vc, animated: true, completion: nil)
+        let vc = OutrosModelosCelularesVC(nibName: "OutrosModelosCelularesVC", bundle: nil)
+        navigationController?.pushViewController(vc, animated: true)
     }
     
     @IBAction func btnTablet(_ sender: UIButton) {
-        let vc: OutrosModelosTablets = OutrosModelosTablets()
-        vc.modalPresentationStyle = .overCurrentContext
-        vc.modalTransitionStyle = .crossDissolve
-        self.present(vc, animated: true, completion: nil)
+        let vc = OutrosModelosTablets(nibName: "OutrosModelosTablets", bundle: nil)
+        navigationController?.pushViewController(vc, animated: true)
     }
     
     

@@ -55,19 +55,27 @@ class OutrosModelosCelularesVC: UIViewController {
     //MARK: - Actions
     @IBAction func btnVoltar(_ sender: UIButton) {
         Singleton.sharedInstance.showTabBar()
-        dismiss(animated: true, completion: nil)
+        navigationController?.popViewController(animated: true)
     }
     
     @IBAction func btnCelular(_ sender: UIButton) {
+        let vc = AdicionarFotosVC(nibName: "AdicionarFotosVC", bundle: nil)
+        navigationController?.pushViewController(vc, animated: true)
     }
     
     @IBAction func btnIphone(_ sender: UIButton) {
+        let vc = AdicionarFotosVC(nibName: "AdicionarFotosVC", bundle: nil)
+        navigationController?.pushViewController(vc, animated: true)
     }
     
     @IBAction func btnAndroid(_ sender: UIButton) {
+        let vc = AdicionarFotosVC(nibName: "AdicionarFotosVC", bundle: nil)
+        navigationController?.pushViewController(vc, animated: true)
     }
     
     @IBAction func btnWindowsPhone(_ sender: UIButton) {
+        let vc = AdicionarFotosVC(nibName: "AdicionarFotosVC", bundle: nil)
+        navigationController?.pushViewController(vc, animated: true)
     }
 
 }

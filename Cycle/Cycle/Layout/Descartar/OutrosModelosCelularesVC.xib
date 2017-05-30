@@ -29,7 +29,7 @@
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="O que você deseja descartar?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gst-pK-oLV">
-                    <rect key="frame" x="32" y="80" width="256" height="25.5"/>
+                    <rect key="frame" x="32.5" y="80" width="256" height="25.5"/>
                     <fontDescription key="fontDescription" name="Oxygen-Light" family="Oxygen" pointSize="20"/>
                     <color key="textColor" red="0.30908361080000002" green="0.65801155570000003" blue="0.62265866989999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     <nil key="highlightedColor"/>

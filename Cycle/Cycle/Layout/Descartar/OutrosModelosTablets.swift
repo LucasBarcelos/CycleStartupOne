@@ -49,16 +49,22 @@ class OutrosModelosTablets: UIViewController {
     //MARK: - Actions
     @IBAction func btnVoltar(_ sender: UIButton) {
         Singleton.sharedInstance.showTabBar()
-        dismiss(animated: true, completion: nil)
+        navigationController?.popViewController(animated: true)
     }
     
     @IBAction func btnTabletWindows(_ sender: UIButton) {
+        let vc = AdicionarFotosVC(nibName: "AdicionarFotosVC", bundle: nil)
+        navigationController?.pushViewController(vc, animated: true)
     }
     
     @IBAction func btnIpad(_ sender: UIButton) {
+        let vc = AdicionarFotosVC(nibName: "AdicionarFotosVC", bundle: nil)
+        navigationController?.pushViewController(vc, animated: true)
     }
     
     @IBAction func btnTabletAndroid(_ sender: UIButton) {
+        let vc = AdicionarFotosVC(nibName: "AdicionarFotosVC", bundle: nil)
+        navigationController?.pushViewController(vc, animated: true)
     }
     
 }
