@@ -38,13 +38,18 @@ class TirarEscolherFotosVC: UIViewController, UIImagePickerControllerDelegate, U
         }
     }
     
+    override var preferredStatusBarStyle: UIStatusBarStyle {
+        return .lightContent
+    }
+    
     //MARK: - Actions
     @IBAction func btnVoltar(_ sender: UIButton) {
         navigationController?.popViewController(animated: true)
     }
     
     @IBAction func btnContinuar(_ sender: UIButton) {
-        
+        let vc = TituloAnuncioVC(nibName: "TituloAnuncioVC", bundle: nil)
+        navigationController?.pushViewController(vc, animated: true)
     }
     
     @IBAction func btnTirarFoto(_ sender: UIButton) {

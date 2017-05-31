@@ -21,6 +21,9 @@ class AdicionarFotosVC: UIViewController {
     }
     
     //MARK: - Métodos
+    override var preferredStatusBarStyle: UIStatusBarStyle {
+        return .lightContent
+    }
     
     //MARK: - Actions
     @IBAction func btnVoltar(_ sender: UIButton) {
@@ -35,6 +38,8 @@ class AdicionarFotosVC: UIViewController {
     }
     
     @IBAction func btnMaisTarde(_ sender: UIButton) {
+        let vc = TituloAnuncioVC(nibName: "TituloAnuncioVC", bundle: nil)
+        navigationController?.pushViewController(vc, animated: true)
     }
     
 

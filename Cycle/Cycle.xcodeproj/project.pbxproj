@@ -15,6 +15,10 @@
 		A234BD141EDD10FB005ECBFC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A234BD131EDD10FB005ECBFC /* AppDelegate.swift */; };
 		A234BD1C1EDD11CF005ECBFC /* AdicionarFotosVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A234BD1A1EDD11CF005ECBFC /* AdicionarFotosVC.swift */; };
 		A234BD1D1EDD11CF005ECBFC /* AdicionarFotosVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = A234BD1B1EDD11CF005ECBFC /* AdicionarFotosVC.xib */; };
+		A29809881EDE4675005EA18C /* TituloAnuncioVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A29809861EDE4675005EA18C /* TituloAnuncioVC.swift */; };
+		A29809891EDE4675005EA18C /* TituloAnuncioVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = A29809871EDE4675005EA18C /* TituloAnuncioVC.xib */; };
+		A298098D1EDE4BFA005EA18C /* DescricaoAnuncioVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A298098B1EDE4BFA005EA18C /* DescricaoAnuncioVC.swift */; };
+		A298098E1EDE4BFA005EA18C /* DescricaoAnuncioVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = A298098C1EDE4BFA005EA18C /* DescricaoAnuncioVC.xib */; };
 		A2DD543B1EDB52CE00487223 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2DD543A1EDB52CE00487223 /* ViewController.swift */; };
 		A2DD544F1EDB531800487223 /* OnBoardingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2DD544D1EDB531800487223 /* OnBoardingVC.swift */; };
 		A2DD54501EDB531800487223 /* OnBoardingVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = A2DD544E1EDB531800487223 /* OnBoardingVC.xib */; };
@@ -50,6 +54,10 @@
 		A234BD131EDD10FB005ECBFC /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A234BD1A1EDD11CF005ECBFC /* AdicionarFotosVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AdicionarFotosVC.swift; path = Layout/Descartar/AdicionarFotos/AdicionarFotosVC.swift; sourceTree = "<group>"; };
 		A234BD1B1EDD11CF005ECBFC /* AdicionarFotosVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = AdicionarFotosVC.xib; path = Layout/Descartar/AdicionarFotos/AdicionarFotosVC.xib; sourceTree = "<group>"; };
+		A29809861EDE4675005EA18C /* TituloAnuncioVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TituloAnuncioVC.swift; path = Layout/Descartar/TituloAnuncio/TituloAnuncioVC.swift; sourceTree = "<group>"; };
+		A29809871EDE4675005EA18C /* TituloAnuncioVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = TituloAnuncioVC.xib; path = Layout/Descartar/TituloAnuncio/TituloAnuncioVC.xib; sourceTree = "<group>"; };
+		A298098B1EDE4BFA005EA18C /* DescricaoAnuncioVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DescricaoAnuncioVC.swift; path = Layout/Descartar/DescricaoAnuncio/DescricaoAnuncioVC.swift; sourceTree = "<group>"; };
+		A298098C1EDE4BFA005EA18C /* DescricaoAnuncioVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = DescricaoAnuncioVC.xib; path = Layout/Descartar/DescricaoAnuncio/DescricaoAnuncioVC.xib; sourceTree = "<group>"; };
 		A2DD54351EDB52CE00487223 /* Cycle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cycle.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2DD543A1EDB52CE00487223 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A2DD54441EDB52CE00487223 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -98,6 +106,24 @@
 				A225602B1EDD193E00B70216 /* TirarEscolherFotosVC.xib */,
 			);
 			name = AdicionarFotos;
+			sourceTree = "<group>";
+		};
+		A29809851EDE464E005EA18C /* TituloAnuncio */ = {
+			isa = PBXGroup;
+			children = (
+				A29809861EDE4675005EA18C /* TituloAnuncioVC.swift */,
+				A29809871EDE4675005EA18C /* TituloAnuncioVC.xib */,
+			);
+			name = TituloAnuncio;
+			sourceTree = "<group>";
+		};
+		A298098A1EDE4BDC005EA18C /* DescricaoAnuncio */ = {
+			isa = PBXGroup;
+			children = (
+				A298098B1EDE4BFA005EA18C /* DescricaoAnuncioVC.swift */,
+				A298098C1EDE4BFA005EA18C /* DescricaoAnuncioVC.xib */,
+			);
+			name = DescricaoAnuncio;
 			sourceTree = "<group>";
 		};
 		A2DD542C1EDB52CE00487223 = {
@@ -180,6 +206,8 @@
 		A2DD546E1EDB5A0E00487223 /* Descartar */ = {
 			isa = PBXGroup;
 			children = (
+				A298098A1EDE4BDC005EA18C /* DescricaoAnuncio */,
+				A29809851EDE464E005EA18C /* TituloAnuncio */,
 				A234BD191EDD11B5005ECBFC /* AdicionarFotos */,
 				A2DD54721EDB5A7200487223 /* HomeDescartarVC.swift */,
 				A2DD54731EDB5A7200487223 /* HomeDescartarVC.xib */,
@@ -303,6 +331,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A2DD54751EDB5A7200487223 /* HomeDescartarVC.xib in Resources */,
+				A29809891EDE4675005EA18C /* TituloAnuncioVC.xib in Resources */,
 				A2DD547D1EDB5AE300487223 /* HomeConfiguracoesVC.xib in Resources */,
 				A2DD54811EDB5B8800487223 /* HomeColetarVC.xib in Resources */,
 				A2DD54611EDB56A600487223 /* Main.storyboard in Resources */,
@@ -311,6 +340,7 @@
 				A2DD546D1EDB57A800487223 /* MainVC.xib in Resources */,
 				A2DD545F1EDB568C00487223 /* LaunchScreen.storyboard in Resources */,
 				A234BD1D1EDD11CF005ECBFC /* AdicionarFotosVC.xib in Resources */,
+				A298098E1EDE4BFA005EA18C /* DescricaoAnuncioVC.xib in Resources */,
 				A2DD54791EDB5AA700487223 /* HomePerfilVC.xib in Resources */,
 				A234BD121EDD10D7005ECBFC /* oxygen.regular.ttf in Resources */,
 				A2DD54501EDB531800487223 /* OnBoardingVC.xib in Resources */,
@@ -338,9 +368,11 @@
 				A2DD54921EDB781C00487223 /* OutrosModelosTablets.swift in Sources */,
 				A2DD545B1EDB550900487223 /* ReachabilityVC.swift in Sources */,
 				A2DD54741EDB5A7200487223 /* HomeDescartarVC.swift in Sources */,
+				A29809881EDE4675005EA18C /* TituloAnuncioVC.swift in Sources */,
 				A2DD54851EDB5DE000487223 /* CustomTabBarController.swift in Sources */,
 				A2DD54831EDB5DB500487223 /* CustomNavigationController.swift in Sources */,
 				A2DD54801EDB5B8800487223 /* HomeColetarVC.swift in Sources */,
+				A298098D1EDE4BFA005EA18C /* DescricaoAnuncioVC.swift in Sources */,
 				A2DD547C1EDB5AE300487223 /* HomeConfiguracoesVC.swift in Sources */,
 				A234BD1C1EDD11CF005ECBFC /* AdicionarFotosVC.swift in Sources */,
 				A2DD544F1EDB531800487223 /* OnBoardingVC.swift in Sources */,
