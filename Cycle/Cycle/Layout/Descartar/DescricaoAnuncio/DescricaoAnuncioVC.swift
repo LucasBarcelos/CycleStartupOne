@@ -41,7 +41,8 @@ class DescricaoAnuncioVC: UIViewController {
     }
     
     @IBAction func btnContinuar(_ sender: UIButton) {
-
+        let vc = MarcaDoEletronicoVC(nibName: "MarcaDoEletronicoVC", bundle: nil)
+        navigationController?.pushViewController(vc, animated: true)
     }
 
 }

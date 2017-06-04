@@ -19,6 +19,14 @@
 		A29809891EDE4675005EA18C /* TituloAnuncioVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = A29809871EDE4675005EA18C /* TituloAnuncioVC.xib */; };
 		A298098D1EDE4BFA005EA18C /* DescricaoAnuncioVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A298098B1EDE4BFA005EA18C /* DescricaoAnuncioVC.swift */; };
 		A298098E1EDE4BFA005EA18C /* DescricaoAnuncioVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = A298098C1EDE4BFA005EA18C /* DescricaoAnuncioVC.xib */; };
+		A2B10CA21EE3936700068883 /* MarcaDoEletronicoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2B10CA01EE3936700068883 /* MarcaDoEletronicoVC.swift */; };
+		A2B10CA31EE3936700068883 /* MarcaDoEletronicoVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = A2B10CA11EE3936700068883 /* MarcaDoEletronicoVC.xib */; };
+		A2B10CA71EE39DE400068883 /* MarcaDoEletronicoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2B10CA51EE39DE400068883 /* MarcaDoEletronicoCell.swift */; };
+		A2B10CA81EE39DE400068883 /* MarcaDoEletronicoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A2B10CA61EE39DE400068883 /* MarcaDoEletronicoCell.xib */; };
+		A2B10CB01EE3A6DD00068883 /* EstadoFisicoEletronicoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2B10CAE1EE3A6DD00068883 /* EstadoFisicoEletronicoVC.swift */; };
+		A2B10CB11EE3A6DD00068883 /* EstadoFisicoEletronicoVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = A2B10CAF1EE3A6DD00068883 /* EstadoFisicoEletronicoVC.xib */; };
+		A2B10CBA1EE3B83100068883 /* EstadoFisicoEletronicoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2B10CB81EE3B83100068883 /* EstadoFisicoEletronicoCell.swift */; };
+		A2B10CBB1EE3B83100068883 /* EstadoFisicoEletronicoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A2B10CB91EE3B83100068883 /* EstadoFisicoEletronicoCell.xib */; };
 		A2DD543B1EDB52CE00487223 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2DD543A1EDB52CE00487223 /* ViewController.swift */; };
 		A2DD544F1EDB531800487223 /* OnBoardingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2DD544D1EDB531800487223 /* OnBoardingVC.swift */; };
 		A2DD54501EDB531800487223 /* OnBoardingVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = A2DD544E1EDB531800487223 /* OnBoardingVC.xib */; };
@@ -58,6 +66,14 @@
 		A29809871EDE4675005EA18C /* TituloAnuncioVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = TituloAnuncioVC.xib; path = Layout/Descartar/TituloAnuncio/TituloAnuncioVC.xib; sourceTree = "<group>"; };
 		A298098B1EDE4BFA005EA18C /* DescricaoAnuncioVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DescricaoAnuncioVC.swift; path = Layout/Descartar/DescricaoAnuncio/DescricaoAnuncioVC.swift; sourceTree = "<group>"; };
 		A298098C1EDE4BFA005EA18C /* DescricaoAnuncioVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = DescricaoAnuncioVC.xib; path = Layout/Descartar/DescricaoAnuncio/DescricaoAnuncioVC.xib; sourceTree = "<group>"; };
+		A2B10CA01EE3936700068883 /* MarcaDoEletronicoVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MarcaDoEletronicoVC.swift; path = Layout/Descartar/MarcaDoEletronico/MarcaDoEletronicoVC.swift; sourceTree = "<group>"; };
+		A2B10CA11EE3936700068883 /* MarcaDoEletronicoVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MarcaDoEletronicoVC.xib; path = Layout/Descartar/MarcaDoEletronico/MarcaDoEletronicoVC.xib; sourceTree = "<group>"; };
+		A2B10CA51EE39DE400068883 /* MarcaDoEletronicoCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MarcaDoEletronicoCell.swift; path = Layout/Descartar/MarcaDoEletronico/MarcaDoEletronicoCell/MarcaDoEletronicoCell.swift; sourceTree = "<group>"; };
+		A2B10CA61EE39DE400068883 /* MarcaDoEletronicoCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MarcaDoEletronicoCell.xib; path = Layout/Descartar/MarcaDoEletronico/MarcaDoEletronicoCell/MarcaDoEletronicoCell.xib; sourceTree = "<group>"; };
+		A2B10CAE1EE3A6DD00068883 /* EstadoFisicoEletronicoVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EstadoFisicoEletronicoVC.swift; path = Layout/Descartar/EstadoFisicoEletronico/EstadoFisicoEletronicoVC.swift; sourceTree = "<group>"; };
+		A2B10CAF1EE3A6DD00068883 /* EstadoFisicoEletronicoVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = EstadoFisicoEletronicoVC.xib; path = Layout/Descartar/EstadoFisicoEletronico/EstadoFisicoEletronicoVC.xib; sourceTree = "<group>"; };
+		A2B10CB81EE3B83100068883 /* EstadoFisicoEletronicoCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EstadoFisicoEletronicoCell.swift; path = Layout/Descartar/EstadoFisicoEletronico/EstadoFisicoEletronicoCell/EstadoFisicoEletronicoCell.swift; sourceTree = "<group>"; };
+		A2B10CB91EE3B83100068883 /* EstadoFisicoEletronicoCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = EstadoFisicoEletronicoCell.xib; path = Layout/Descartar/EstadoFisicoEletronico/EstadoFisicoEletronicoCell/EstadoFisicoEletronicoCell.xib; sourceTree = "<group>"; };
 		A2DD54351EDB52CE00487223 /* Cycle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cycle.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2DD543A1EDB52CE00487223 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A2DD54441EDB52CE00487223 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -124,6 +140,44 @@
 				A298098C1EDE4BFA005EA18C /* DescricaoAnuncioVC.xib */,
 			);
 			name = DescricaoAnuncio;
+			sourceTree = "<group>";
+		};
+		A2B10C9F1EE3920200068883 /* MarcaDoEletronico */ = {
+			isa = PBXGroup;
+			children = (
+				A2B10CA41EE39DAE00068883 /* MarcaDoEletronicoCell */,
+				A2B10CA01EE3936700068883 /* MarcaDoEletronicoVC.swift */,
+				A2B10CA11EE3936700068883 /* MarcaDoEletronicoVC.xib */,
+			);
+			name = MarcaDoEletronico;
+			sourceTree = "<group>";
+		};
+		A2B10CA41EE39DAE00068883 /* MarcaDoEletronicoCell */ = {
+			isa = PBXGroup;
+			children = (
+				A2B10CA51EE39DE400068883 /* MarcaDoEletronicoCell.swift */,
+				A2B10CA61EE39DE400068883 /* MarcaDoEletronicoCell.xib */,
+			);
+			name = MarcaDoEletronicoCell;
+			sourceTree = "<group>";
+		};
+		A2B10CA91EE3A5CA00068883 /* EstadoFisicoEletronico */ = {
+			isa = PBXGroup;
+			children = (
+				A2B10CB71EE3B81500068883 /* EstadoFisicoEletronicoCell */,
+				A2B10CAE1EE3A6DD00068883 /* EstadoFisicoEletronicoVC.swift */,
+				A2B10CAF1EE3A6DD00068883 /* EstadoFisicoEletronicoVC.xib */,
+			);
+			name = EstadoFisicoEletronico;
+			sourceTree = "<group>";
+		};
+		A2B10CB71EE3B81500068883 /* EstadoFisicoEletronicoCell */ = {
+			isa = PBXGroup;
+			children = (
+				A2B10CB81EE3B83100068883 /* EstadoFisicoEletronicoCell.swift */,
+				A2B10CB91EE3B83100068883 /* EstadoFisicoEletronicoCell.xib */,
+			);
+			name = EstadoFisicoEletronicoCell;
 			sourceTree = "<group>";
 		};
 		A2DD542C1EDB52CE00487223 = {
@@ -206,6 +260,8 @@
 		A2DD546E1EDB5A0E00487223 /* Descartar */ = {
 			isa = PBXGroup;
 			children = (
+				A2B10CA91EE3A5CA00068883 /* EstadoFisicoEletronico */,
+				A2B10C9F1EE3920200068883 /* MarcaDoEletronico */,
 				A298098A1EDE4BDC005EA18C /* DescricaoAnuncio */,
 				A29809851EDE464E005EA18C /* TituloAnuncio */,
 				A234BD191EDD11B5005ECBFC /* AdicionarFotos */,
@@ -331,7 +387,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				A2DD54751EDB5A7200487223 /* HomeDescartarVC.xib in Resources */,
+				A2B10CA81EE39DE400068883 /* MarcaDoEletronicoCell.xib in Resources */,
 				A29809891EDE4675005EA18C /* TituloAnuncioVC.xib in Resources */,
+				A2B10CB11EE3A6DD00068883 /* EstadoFisicoEletronicoVC.xib in Resources */,
 				A2DD547D1EDB5AE300487223 /* HomeConfiguracoesVC.xib in Resources */,
 				A2DD54811EDB5B8800487223 /* HomeColetarVC.xib in Resources */,
 				A2DD54611EDB56A600487223 /* Main.storyboard in Resources */,
@@ -346,6 +404,8 @@
 				A2DD54501EDB531800487223 /* OnBoardingVC.xib in Resources */,
 				A2DD54521EDB53BD00487223 /* Media.xcassets in Resources */,
 				A234BD111EDD10D7005ECBFC /* oxygen.light.ttf in Resources */,
+				A2B10CBB1EE3B83100068883 /* EstadoFisicoEletronicoCell.xib in Resources */,
+				A2B10CA31EE3936700068883 /* MarcaDoEletronicoVC.xib in Resources */,
 				A2DD548F1EDB727B00487223 /* OutrosModelosCelularesVC.xib in Resources */,
 				A2DD54931EDB781C00487223 /* OutrosModelosTablets.xib in Resources */,
 			);
@@ -362,20 +422,24 @@
 				A2DD543B1EDB52CE00487223 /* ViewController.swift in Sources */,
 				A2DD548E1EDB727B00487223 /* OutrosModelosCelularesVC.swift in Sources */,
 				A2DD548B1EDB5E4700487223 /* Singleton.swift in Sources */,
+				A2B10CBA1EE3B83100068883 /* EstadoFisicoEletronicoCell.swift in Sources */,
 				A2DD546C1EDB57A800487223 /* MainVC.swift in Sources */,
 				A234BD141EDD10FB005ECBFC /* AppDelegate.swift in Sources */,
 				A2DD54781EDB5AA700487223 /* HomePerfilVC.swift in Sources */,
 				A2DD54921EDB781C00487223 /* OutrosModelosTablets.swift in Sources */,
 				A2DD545B1EDB550900487223 /* ReachabilityVC.swift in Sources */,
+				A2B10CB01EE3A6DD00068883 /* EstadoFisicoEletronicoVC.swift in Sources */,
 				A2DD54741EDB5A7200487223 /* HomeDescartarVC.swift in Sources */,
 				A29809881EDE4675005EA18C /* TituloAnuncioVC.swift in Sources */,
 				A2DD54851EDB5DE000487223 /* CustomTabBarController.swift in Sources */,
 				A2DD54831EDB5DB500487223 /* CustomNavigationController.swift in Sources */,
+				A2B10CA71EE39DE400068883 /* MarcaDoEletronicoCell.swift in Sources */,
 				A2DD54801EDB5B8800487223 /* HomeColetarVC.swift in Sources */,
 				A298098D1EDE4BFA005EA18C /* DescricaoAnuncioVC.swift in Sources */,
 				A2DD547C1EDB5AE300487223 /* HomeConfiguracoesVC.swift in Sources */,
 				A234BD1C1EDD11CF005ECBFC /* AdicionarFotosVC.swift in Sources */,
 				A2DD544F1EDB531800487223 /* OnBoardingVC.swift in Sources */,
+				A2B10CA21EE3936700068883 /* MarcaDoEletronicoVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
